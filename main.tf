@@ -9,7 +9,7 @@ terraform {
 
 provider "github" {
   owner = var.destination_org
-  token = var.gh_token
+  token = var.GITHUB_TOKEN
 }
 
 resource "github_repository" "gh_repo" {
