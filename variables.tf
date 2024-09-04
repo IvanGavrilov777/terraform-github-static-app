@@ -13,7 +13,7 @@ variable "destination_org" {
   default     = "hashicorp-education"
 }
 
-variable "gh_token" {
+variable "GITHUB_TOKEN" {
   description = "Github token with permissions to create and delete repos."
 }
 
